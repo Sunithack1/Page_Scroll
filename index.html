@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Full Page Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="jquery.fullpage.js"></script>
+  </head>
+  <body>
+  	<div id="fullpage">
+  		<section>
+  			<h1>Section 1</h1>
+  		</section>
+  		<section>
+  			<h1>Section 2</h1>
+  		</section>
+  		<section>
+  			<h1>Section 3</h1>
+  		</section>
+  		<section>
+  			<h1>Section 4</h1>
+  		</section>
+  		<section><h1>Section 5</h1>
+  		</section>
+  	</div> 
+  	<script>
+  		    FastClick.attach(document.body);
+  			$('#fullpage').fullpage();
+  	</script> 
+  </body>
+</html>
